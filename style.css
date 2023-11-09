@@ -70,3 +70,13 @@ footer {
   background-color:#ff0800;
   border-width:0px;
 }
+.content {
+  opacity: 0;
+  transform: translateY(100%);
+  transition: opacity 1s, transform 1s;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
