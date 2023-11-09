@@ -5,13 +5,14 @@ body {
 }
 
 header {
-  background-color: #333;
+  background-color:#ff0800;
   color: #fff;
   padding: 20px;
 }
 
 header h1 {
   margin: 0;
+  
 }
 
 nav ul {
@@ -30,10 +31,10 @@ nav ul li a {
 }
 
 .hero {
-  background-image: url('hero.jpg');
+  background-image: url('https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&w=600');
   background-size: cover;
-  color: #a52a2a;
-  padding: 100px;
+  color: #000000 ;
+  padding: 145px;
   text-align: center;
 }
 
@@ -64,4 +65,8 @@ footer {
   color: #fff;
   padding: 20px;
   text-align: center;
+}
+.butt{
+  background-color:#ff0800;
+  border-width:0px;
 }
