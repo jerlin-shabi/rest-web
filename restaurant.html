@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Delicious Eats</title>
   <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </head>
 <body onload="animateFromBottom()">
   <header class="header">
@@ -20,27 +20,28 @@
     </nav>
   </header>
   <div class="content">
-    <section class="hero">
+    <div class="hero">
       <h2>Delicious Food, Great Ambience</h2>
       <p>Experience the best dining in town at Delicious Eats. We offer a wide range of mouth-watering dishes prepared by our expert chefs.</p>
       <a href="#" class="btn">Book a Table</a>
-    </section>
-
+    </div>
+    </div>
     <section class="menu">
       <h2>Our Menu</h2>
       <div class="menu-item">
         <img src="https://img.freepik.com/free-photo/crispy-fried-chicken-plate-with-salad-carrot_1150-20212.jpg?size=626&ext=jpg&ga=GA1.1.128770092.1696344905&semt=ais" alt="Fried Chicken">
-        <h3>Fried Chicken <button>Order Now</button></h3>
+        <h3>Fried Chicken <a href="#" class="order-link">Order Now</a></h3>
         <p>Golden fried chicken, just how you like it.</p>
       </div>
       <div class="menu-item">
         <img src="https://img.freepik.com/free-photo/grilled-chicken-nuggets-bowl-crackers-spices-sauce-side-view_141793-3132.jpg?size=626&ext=jpg&ga=GA1.1.128770092.1696344905&semt=ais" alt="Chicken Popcorn">
-        <h3>Chicken Popcorn <button>Order Now</button></h3>
+        <h3>Chicken Popcorn <a href="#" class="order-link">Order Now</a></h3>
         <p>A fun and tasty twist on chicken nuggets.</p>
       </div>
       <div class="menu-item">
         <img src="https://img.freepik.com/free-photo/grilled-chicken-nuggets-bowl-crackers-spices-sauce-side-view_141793-3132.jpg?size=626&ext=jpg&ga=GA1.1.128770092.1696344905&semt=ais" alt="Chicken Wings">
-        <h3>Chicken Wings <button>Order Now</button></h3>
+        <h3>Chicken Wings <a href="#" class="order-link">Order Now</a></h3>
+
         <p>Get saucy with chicken wings.</p>
       </div>
     </section>

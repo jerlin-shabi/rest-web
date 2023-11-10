@@ -6,14 +6,13 @@ body {
 
 .header {
   color: #fff;
-  
   padding: 10px;
   position: fixed;
   width: 100%;
   top: 0;
   transition: background-color 0.3s, opacity 0.3s;
   z-index: 1000;
- 
+  background-color:rgb(177, 105, 57);
 }
 
 header h1 {
@@ -28,7 +27,7 @@ nav ul {
 nav ul li {
   display: inline;
   margin-right: 10px;
-  padding : 0 1px;
+  padding: 0 1px;
 }
 
 nav ul li a {
@@ -36,13 +35,31 @@ nav ul li a {
   text-decoration: none;
 }
 
-.hero {
+.content {
   background-image: url('https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&w=600');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   color: #000000;
-  height: 25dvh;
+  opacity:0.1;
+  height: 25vh;
   padding: 145px;
   text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(100, 98, 98, 0.5);
+  z-index: -1;
+  transform: translateZ(0);
 }
 
 .menu {
@@ -73,10 +90,12 @@ footer {
   padding: 20px;
   text-align: center;
 }
+
 .butt {
   background-color: #ff0800;
   border-width: 0px;
 }
+
 .content {
   opacity: 0;
   transform: translateY(100%);
@@ -87,7 +106,15 @@ footer {
   opacity: 1;
   transform: translateY(0);
 }
-a{
+
+a {
   text-decoration: none;
-  
+}
+h5 ,h3{
+  margin: 0;
+  padding: 0;
+}
+.order-link {
+  font-size: smaller;
+  /* Add any additional styling as needed */
 }

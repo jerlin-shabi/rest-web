@@ -6,12 +6,12 @@ function animateFromBottom() {
 document.addEventListener('scroll', function () {
   var headerContainer = document.querySelector('header');
 
-  if (window.scrollY > 150) {
-    headerContainer.style.backgroundColor = 'red'; // Change background color on scroll
+  if (window.scrollY > 100) {
+     //background of header
     headerContainer.style.opacity = '1';
   } else {
-    headerContainer.style.backgroundColor = 'rgba(51, 51, 51, 0)'; // Transparent background when at the top
-    headerContainer.style.opacity = '1'; // Fully visible at the top
+    headerContainer.style.backgroundColor = 'rgba(51, 51, 51, 0)';
+    headerContainer.style.opacity = '1';
   }
 });
 
