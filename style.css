@@ -4,15 +4,20 @@ body {
   padding: 0;
 }
 
-header {
-  background-color:#ff0800;
+.header {
   color: #fff;
-  padding: 20px;
+  
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  transition: background-color 0.3s, opacity 0.3s;
+  z-index: 1000;
+ 
 }
 
 header h1 {
   margin: 0;
-  
 }
 
 nav ul {
@@ -23,6 +28,7 @@ nav ul {
 nav ul li {
   display: inline;
   margin-right: 10px;
+  padding : 0 1px;
 }
 
 nav ul li a {
@@ -33,7 +39,8 @@ nav ul li a {
 .hero {
   background-image: url('https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&w=600');
   background-size: cover;
-  color: #000000 ;
+  color: #000000;
+  height: 25dvh;
   padding: 145px;
   text-align: center;
 }
@@ -66,9 +73,9 @@ footer {
   padding: 20px;
   text-align: center;
 }
-.butt{
-  background-color:#ff0800;
-  border-width:0px;
+.butt {
+  background-color: #ff0800;
+  border-width: 0px;
 }
 .content {
   opacity: 0;
@@ -79,4 +86,8 @@ footer {
 .show {
   opacity: 1;
   transform: translateY(0);
+}
+a{
+  text-decoration: none;
+  
 }

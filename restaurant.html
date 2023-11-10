@@ -1,71 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Restaurant Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delicious Eats</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <script src="script.js"></script>
 </head>
 <body onload="animateFromBottom()">
-  <div class="content">
-  <header>
-    <h1>Welcome to MFC</h1>
+  <header class="header">
+    <h1>Welcome to Delicious Eats</h1>
     <nav>
       <ul>
-        <li>
-        <a href="#">Home</a>
-        </li>
-        <li>
-        <a href="#">Menu</a>
-        </li>
-        <li>
-        <a href="#">About</a>
-        </li>
-        <li>
-        <a href="#">Contact Us</a>
-        </li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact Us</a></li>
       </ul>
     </nav>
   </header>
+  <div class="content">
+    <section class="hero">
+      <h2>Delicious Food, Great Ambience</h2>
+      <p>Experience the best dining in town at Delicious Eats. We offer a wide range of mouth-watering dishes prepared by our expert chefs.</p>
+      <a href="#" class="btn">Book a Table</a>
+    </section>
 
-  <section class="hero">
-    <h2>Delicious Food, Great Ambience</h2>
-    <p>Experience the best dining in town at our restaurant. We offer a wide range of mouth-watering dishes prepared by our expert chefs.</p>
-    <a href="#" class="btn">Book a Table</a>
-  </section>
+    <section class="menu">
+      <h2>Our Menu</h2>
+      <div class="menu-item">
+        <img src="https://img.freepik.com/free-photo/crispy-fried-chicken-plate-with-salad-carrot_1150-20212.jpg?size=626&ext=jpg&ga=GA1.1.128770092.1696344905&semt=ais" alt="Fried Chicken">
+        <h3>Fried Chicken <button>Order Now</button></h3>
+        <p>Golden fried chicken, just how you like it.</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://img.freepik.com/free-photo/grilled-chicken-nuggets-bowl-crackers-spices-sauce-side-view_141793-3132.jpg?size=626&ext=jpg&ga=GA1.1.128770092.1696344905&semt=ais" alt="Chicken Popcorn">
+        <h3>Chicken Popcorn <button>Order Now</button></h3>
+        <p>A fun and tasty twist on chicken nuggets.</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://img.freepik.com/free-photo/grilled-chicken-nuggets-bowl-crackers-spices-sauce-side-view_141793-3132.jpg?size=626&ext=jpg&ga=GA1.1.128770092.1696344905&semt=ais" alt="Chicken Wings">
+        <h3>Chicken Wings <button>Order Now</button></h3>
+        <p>Get saucy with chicken wings.</p>
+      </div>
+    </section>
 
-  <section class="menu">
-    <h2>Our Menu</h2>
-    <div class="menu-item">
-      <img src="https://img.freepik.com/free-photo/crispy-fried-chicken-plate-with-salad-carrot_1150-20212.jpg?size=626&ext=jpg&ga=GA1.1.128770092.1696344905&semt=ais" alt="Food 1">
-      <h3>Fried Chicken  <button>
-         order now..
-         </button> </h3>
-      <p>Golden fried chicken, just how you like it.</p>
-    </div>
-    <div class="menu-item">
-      <img src="https://img.freepik.com/free-photo/grilled-chicken-nuggets-bowl-crackers-spices-sauce-side-view_141793-3132.jpg?size=626&ext=jpg&ga=GA1.1.128770092.1696344905&semt=ais" alt="Food 2">
-      <h3>Chicken Popcorn  <button>
-         order now..
-         </button></h3>
-      <p>A fun and tasty twist on traditional chicken nuggets.</p>
-    </div>
-    <div class="menu-item">
-      <img src="https://img.freepik.com/free-photo/grilled-buffalo-chicken-wings-rustic-wood-plate-generated-by-ai_188544-26049.jpg?size=626&ext=jpg&ga=GA1.1.128770092.1696344905&semt=ais" alt="Food 3">
-      <h3>Chicken Wings  <button>
-         order now..
-         </button></h3>
-      <p>Get saucy with chicken wings.</p>
-    </div>
-  </section>
+    <section class="about">
+      <h2>About Our Restaurant</h2>
+      <p>Delicious Eats is a must-visit dining destination that offers a unique and unforgettable experience. Located in [Your City], our restaurant specializes in [Type of Cuisine], serving a diverse menu that caters to all tastes and preferences. We take pride in our excellent service, with a friendly and helpful staff that ensures every guest feels welcome and well taken care of. Our dishes are expertly prepared, reflecting our passion for food and showcasing the finest ingredients. The restaurant's ambiance is designed to create a warm and inviting atmosphere, making it the perfect place to enjoy a meal with loved ones and close friends. Whether you're looking for a quick bite or a leisurely dining experience, Delicious Eats is the ideal choice for a memorable and satisfying meal.</p>
+    </section>
 
-  <section class="about">
-    <h2>About Our Restaurant</h2>
-    <p>Our restaurant, [MFC], is a must-visit dining destination that offers a unique and unforgettable experience. Located in [Location], our restaurant specializes in [Type of Cuisine], serving a diverse menu that caters to all tastes and preferences. We take pride in our excellent service, with a friendly and helpful staff that ensures every guest feels welcome and well taken care of. Our dishes are expertly prepared, reflecting our passion for food and showcasing the finest ingredients. The restaurant's ambiance is designed to create a warm and inviting atmosphere, making it the perfect place to enjoy a meal with loved ones and close friends. Whether you're looking for a quick bite or a leisurely dining experience, [Restaurant Name] is the ideal choice for a memorable and satisfying meal.</p>
-  </section>
-
-  <footer>
-    <p>&copy; 2023 Restaurant. All rights reserved.</p>
-  </footer>
+    <footer>
+      <p>&copy; 2023 Delicious Eats. All rights reserved.</p>
+    </footer>
   </div>
 </body>
 </html>
