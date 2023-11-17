@@ -6,8 +6,8 @@ function animateFromBottom() {
 document.addEventListener('scroll', function () {
   var headerContainer = document.querySelector('header');
 
-  if (window.scrollY > 100) {
-     //background of header
+  if (window.scrollY > 150) {
+    headerContainer.style.backgroundColor = '#333';
     headerContainer.style.opacity = '1';
   } else {
     headerContainer.style.backgroundColor = 'rgba(51, 51, 51, 0)';

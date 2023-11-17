@@ -12,7 +12,13 @@ body {
   top: 0;
   transition: background-color 0.3s, opacity 0.3s;
   z-index: 1000;
-  background-color:rgb(177, 105, 57);
+ 
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  
+  
 }
 
 header h1 {
@@ -31,7 +37,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #000000;
+  color: #ffffff;
   text-decoration: none;
 }
 
